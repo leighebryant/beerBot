@@ -1,20 +1,54 @@
 <!Doctype HTML>
 <html>
 <header>
-  <title>beerBot</title>
-  <link rel="stylesheet" href="/styles/main.css">
-  <link rel="stylesheet" href="styles/reset.css"
+    <title>dino ipsum</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 </header>
 
 <body>
-<!--Content goes here-->
+    <!--Content goes here-->
 
-<div class="mainContainer">
+    <div class="mainContainer">
+        <div class="dinoMenu">
 
-</div>
+            <head>
+                <div class="logo">
+                    <img class="lildino" src="tyrannosaurus-rex.png">
+                    <h1>dino ipsum</h1>
+                </div>
+                <hr class='line'>
+            </head>
+            <section>
+
+                <input type="text" class="searchBar" name="search" placeholder="Number of paragraphs..."><br>
+
+                <input type="text" class="searchBar2" name="search" placeholder="Words per paragraphs..."><br>
+
+            <select name='format' class="selectFormat">
+              <datalist class="formatType" name="format">
+                <option value="Text">Text</option>
+                <option value="HMTL">HTML</option>
+                <option value ="JSON">JSON</option>
+            </select><br>
 
 
-<script src="styles/jquery-3.1.1.min.js"></script>
-<script src="main.js"></script>
+                <button class="dinoMe">Give me dinosaurs!</button>
+                <button class="startOver">Start Over</button>
+                <hr class='line'>
+            </section>
+            <div class="dinoIpsum"></div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="styles/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
